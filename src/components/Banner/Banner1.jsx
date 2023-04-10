@@ -1,17 +1,22 @@
 import React from 'react';
 import img from '../../assets/human.png';
+import { Link } from 'react-router-dom';
 
 const Banner1 = () => {
     return (
-        <div className='bg-banner mx-auto sm:max-w-xl md:max-w-full md:px-24 lg:px-8'>
-            {/* <div className='flex items-center justify-between'>
-                <div>
-
+        <div className='my-container'>
+            <div className='flex flex-col md:flex-row items-center justify-between max-w-screen'>
+                <div className='text-gray-800 md:w-1/2'>
+                    <p className='text-5xl md:text-6xl font-semibold mb-3'>One Step</p>
+                    <p className='text-5xl md:text-6xl font-semibold mb-3'>Closer To Your</p>
+                    <p className='text-5xl md:text-6xl font-semibold mb-5 bg-gradient-to-r from-blue-400 to-indigo-400 inline-block text-transparent bg-clip-text'>Dream Job</p>
+                    <p className='md:w-full lg:w-2/3 text-gray-600 mb-6'>It is more than just a job platform - it's a place where dreams become reality. We connect talented individuals with opportunities to help them achieve their career goals and aspirations.</p>
+                    <Link className='btn'>Get Started</Link>
                 </div>
-                <div>
-                    <img src={img} alt="" />
+                <div className='md:w-1/2'>
+                    <img className='' src={img} alt="" />
                 </div>
-            </div> */}
+            </div>
         </div>
     );
 };

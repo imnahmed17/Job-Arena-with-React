@@ -4,8 +4,10 @@ import Banner1 from '../Banner/Banner1';
 const Home = () => {
     return (
         <div>
-            <h1>home page</h1>
-            <Banner1 />
+            <div className='bg-banner pt-5'>
+                <Banner1 />
+            </div>
+            
         </div>
     );
 };
