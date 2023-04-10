@@ -11,7 +11,7 @@ const Header = () => {
                 <div className='relative flex items-center justify-between'>
                     {/* Logo Section */}
                     <Link to='/' className='inline-flex items-center'>
-                        <span className='ml-2 text-2xl font-bold tracking-wide text-gray-800'>Job Arena</span>
+                        <span className='ml-2 text-3xl lg:text-5xl font-mono font-bold tracking-wide text-gray-800'>Job Arena</span>
                     </Link>
 
                     {/* Nav Items Section */}
@@ -47,7 +47,7 @@ const Header = () => {
                                         <div className='flex items-center justify-between mb-4'>
                                             <div>
                                                 <Link to='/' className='inline-flex items-center'>
-                                                    <span className='ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase'>
+                                                    <span className='ml-2 text-2xl font-mono font-bold tracking-wide text-gray-800'>
                                                         Job Arena
                                                     </span>
                                                 </Link>
