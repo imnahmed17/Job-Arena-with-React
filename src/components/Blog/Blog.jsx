@@ -1,9 +1,12 @@
 import React from 'react';
+import Banner2 from '../Banner/Banner2';
 
 const Blog = () => {
     return (
         <div>
-            <h1>blog page</h1>
+            <div className='bg-banner'>
+                <Banner2>Blog</Banner2>
+            </div>
         </div>
     );
 };

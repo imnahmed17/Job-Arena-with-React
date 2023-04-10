@@ -1,9 +1,12 @@
 import React from 'react';
+import Banner2 from '../Banner/Banner2';
 
 const AppliedJobs = () => {
     return (
         <div>
-            <h1>applied jobs page</h1>
+            <div className='bg-banner'>
+                <Banner2>Applied Jobs</Banner2>
+            </div>
         </div>
     );
 };

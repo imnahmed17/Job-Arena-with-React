@@ -1,9 +1,12 @@
 import React from 'react';
+import Banner2 from '../Banner/Banner2';
 
 const Statistics = () => {
     return (
         <div>
-            <h1>statistics page</h1>
+            <div className='bg-banner'>
+                <Banner2>Statistics</Banner2>
+            </div>
         </div>
     );
 };
