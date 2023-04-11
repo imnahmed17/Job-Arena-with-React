@@ -1,14 +1,19 @@
 import React, { useEffect, useState } from 'react';
 import Banner1 from '../Banner/Banner1';
 import Category from '../Category/Category';
-import { useLoaderData } from 'react-router-dom';
+import { Link, useLoaderData } from 'react-router-dom';
 import Job from '../Job/Job';
 
 const Home = () => {
     const [categories, setCategories] = useState([]);
+    const [showAll, setShowAll] = useState(false);
 
     const allJobs = useLoaderData();
     // console.log(allJobs);
+
+    const handleShowAll = () => {
+        setShowAll(true);
+    };
 
     useEffect(() => {
         fetch('category.json')
@@ -42,9 +47,16 @@ const Home = () => {
                     <p className='text-gray-600 text-center'>Explore thousands of job opportunities with all the information you need. It's your future.</p>
                     <div className='grid gap-6 lg:grid-cols-2 sm:grid-cols-1 mt-5'>
                         {
-                            allJobs.map(job => (
+                            allJobs.slice(0, showAll ? 6 : 4).map(job => (
                                 <Job key={job.id} job={job} />
                             ))
+                        }
+                    </div>
+                    <div className='text-center my-7'>
+                        {
+                            !showAll && (
+                                <Link className='btn' onClick={handleShowAll}>See All Jobs</Link>
+                            )
                         }
                     </div>
                 </div>
