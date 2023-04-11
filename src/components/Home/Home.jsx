@@ -20,7 +20,7 @@ const Home = () => {
             <section className='my-container text-gray-800 mt-20'>
                 <div className='mt-10'>
                     <h2 className='text-4xl font-semibold mb-4 text-center'>Job Category List</h2>
-                    <p className='text-gray-600 text-center'>Explore thousands of job opportunities with all the information you need. Its your future</p>
+                    <p className='text-gray-600 text-center'>Explore thousands of job opportunities with all the information you need. It's your future.</p>
                     <div className='grid gap-6 mb-8 lg:grid-cols-4 sm:grid-cols-2 mt-5'>
                         {
                             categories.map(category => (
