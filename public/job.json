@@ -1,0 +1,128 @@
+[
+    {
+        "id": "643523406aaf421fd65dd11f",
+        "companyLogo": "../src/assets/logo/google.png",
+        "jobTitle": "Senior Data Engineer",
+        "companyName": "Google LLC",
+        "remoteOrOnsite": "Remote",
+        "location": {
+            "district": "Dhaka, Bangladesh",
+            "address": "Dhanmondi 32, Sukrabad"
+        },
+        "jobType": "Full Time",
+        "salary": "100K - 150K",
+        "jobDescription": "As a Senior Data Engineer, you should be an expert with data warehousing technical components (e.g. Data Modelling, ETL, and Reporting), infrastructure (e.g. hardware and software), and their integration. You will work closely with business and technical stakeholders to aggregate, analyze & transform data to report insights.",
+        "jobResponsibility": "Create and maintain optimal data pipeline architecture, assemble, analyze, and organize large, complex data sets that meet functional / non-functional business requirements and collaborating with the data architects, engineers, analysts, and scientists on the team.",
+        "educationalRequirements": "Bachelor's or Master's degree in Computer Science, Information Systems, or equivalent.",
+        "experiences": "5+ years of experience as a Data Engineer or in a similar role.",
+        "contactInformation": {
+            "phone": "01750-000000",
+            "email": "info.google@gmail.com"
+        }
+    },
+    {
+        "id": "64352340d38a89b544a8b454",
+        "companyLogo": "../src/assets/logo/airbnb.png",
+        "jobTitle": "Software Engineer",
+        "companyName": "Airbnb",
+        "remoteOrOnsite": "Onsite",
+        "location": {
+            "district": "Dhaka, Bangladesh",
+            "address": "Niketan, Gulshan 1"
+        },
+        "jobType": "Full Time",
+        "salary": "50K - 100K",
+        "jobDescription": "Our team members are very passionate about what we do, and our goal. If you are someone who is looking for an opportunity to work in a dynamic, friendly, and exploratory environment, we invite you to apply and be a part of our exciting journey.",
+        "jobResponsibility": "Highly confident in Golang, C/C++, self-developed projects built for fun and learning purposes, knowledge of Linux, NGINX, and Multithreading, experience in Frontend development (i.e. React, Tailwind CSS, etc.), have a clear understanding of OOP & Design Patterns and knowledge of the most common web servers/load balancers. (Apache, Nginx, HAProxy)",
+        "educationalRequirements": "Bachelor's degree in Computer Science, Information Systems, or equivalent.",
+        "experiences": "Freshers are also encouraged to apply.",
+        "contactInformation": {
+            "phone": "01750-012340",
+            "email": "info.airbnb@gmail.com"
+        }
+    },
+    {
+        "id": "643523408fd59a4665584ad8",
+        "companyLogo": "../src/assets/logo/tesla.png",
+        "jobTitle": "Lead Backend Engineer",
+        "companyName": "Tesla",
+        "remoteOrOnsite": "Onsite",
+        "location": {
+            "district": "Dhaka, Bangladesh",
+            "address": "Banani, Gulshan 2"
+        },
+        "jobType": "Full Time",
+        "salary": "50K - 100K",
+        "jobDescription": "Lead Backend Engineer - Regional Technology is solely responsible for Managing Backend Team with all phases of the development life-cycle and Define code architectural decisions.",
+        "jobResponsibility": "Lead the development in one or multiple domains, contribute in all phases of the development life-cycle, building interactive consumer data from multiple systems and restfully abstract to the UI through a backend, define code architecture decisions to support a high-performance and scalable product with a minimal footprint, in depth knowledge of NodeJS, Express JS, hapi.js, GraphQL, Apollo, Nuxt.js and collaborate well with engineers, researchers, and data implementation specialists to design and create advanced, elegant and efficient systems.",
+        "educationalRequirements": "BS/MS degree in Computer Science, Engineering or a related subject.",
+        "experiences": "More than 5 years experience and at least 3 years in Node.JS.",
+        "contactInformation": {
+            "phone": "01750-000123",
+            "email": "info.tesla@gmail.com"
+        }
+    },
+    {
+        "id": "6435234071a0e19c79ea5f03",
+        "companyLogo": "../src/assets/logo/netflix.png",
+        "jobTitle": "Senior Angular Developer",
+        "companyName": "Netflix",
+        "remoteOrOnsite": "Hybrid",
+        "location": {
+            "district": "Dhaka, Bangladesh",
+            "address": "Badda Link Road, Gulshan 1"
+        },
+        "jobType": "Full Time",
+        "salary": "100K - 150K",
+        "jobDescription": "Our team is looking for a Senior Software Engineer focusing on microservice architecture, cloud computing and scalability within our SaaS and mobile products which deliver highly available and scalable data management, analytics and AIML capabilities to our largest Pharmaceutical clients.",
+        "jobResponsibility": "Produce efficient, high quality code that ensures system performance and scalability, working with self developed NPM and chart libraries, performance improvement of existing component, creating reusable components, implement unit and integration tests and conduct code reviews with fellow software engineers.",
+        "educationalRequirements": "Bachelor's Degree in Engineering or master's degree in computer application or equivalent.",
+        "experiences": "5-10 years relevant experience in software development.",
+        "contactInformation": {
+            "phone": "01750-123000",
+            "email": "info.netflix@gmail.com"
+        }
+    },
+    {
+        "id": "64352340bac89d06bdbb9199",
+        "companyLogo": "../src/assets/logo/google.png",
+        "jobTitle": "Android Developer",
+        "companyName": "Google LLC",
+        "remoteOrOnsite": "Remote",
+        "location": {
+            "district": "Dhaka, Bangladesh",
+            "address": "Dhanmondi 32, Sukrabad"
+        },
+        "jobType": "Full Time",
+        "salary": "150K - 200K",
+        "jobDescription": "We are searching for a brilliant, flexible Android Developer to create novel apps that meet the needs of our clients and the end-users. To this end, the Android Developer's responsibilities include writing and proofreading code, liaising with team members within and outside of their department, and monitoring client feedback.",
+        "jobResponsibility": "Design and build advanced native applications for the Android platform, conceptualizing and formulating apps that are suitable for use on all types of Android devices, collaborating with UI and UX Designers, as well as Software Testers, to ensure that each app is presentable and in perfect working order, creating app updates, including bug fixes and additional features, for release and participate in the end-to-end product life cycle: confirming requirements, solution design, development, testing, and implementation.",
+        "educationalRequirements": "Bachelor's Degree in Computer Science or related field.",
+        "experiences": "3+ years of proven industry experience in mobile app development.",
+        "contactInformation": {
+            "phone": "01750-000000",
+            "email": "info.google@gmail.com"
+        }
+    },
+    {
+        "id": "64352340b6a57ff8da46c0ec",
+        "companyLogo": "../src/assets/logo/netflix.png",
+        "jobTitle": "Sr. Frontend Engineer",
+        "companyName": "Netflix",
+        "remoteOrOnsite": "Onsite",
+        "location": {
+            "district": "Dhaka, Bangladesh",
+            "address": "Badda Link Road, Gulshan 1"
+        },
+        "jobType": "Full Time",
+        "salary": "100K - 150K",
+        "jobDescription": "We offer an opportunity to train the next generation of business leaders in the ‘tech’ industry, a platform to learn from Alibaba's world-leading ecosystem, rigorous training and exposure in team management, leadership, business analytics, and operations, competitive salary and incentive package and international working environment in a start-up setting, and a unique opportunity to learn from the best in e-commerce (Alibaba Group) and business growth.",
+        "jobResponsibility": "Building interactive UI from Business Requirements and/or Design systems and integrate data through REST Api, define code architecture decisions to support a high-performance and scalable product with a minimal footprint, address and improve any technical issues and collaborate with cross functional teams to design and create advanced, elegant and efficient systems for end users.",
+        "educationalRequirements": "Bachelors Degree in Engineering/ CSE from any reputed university.",
+        "experiences": "3-5 years of hands-on experience in building scalable and performant web applications.",
+        "contactInformation": {
+            "phone": "01750-123000",
+            "email": "info.netflix@gmail.com"
+        }
+    }
+]
