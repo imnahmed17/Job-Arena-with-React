@@ -54,7 +54,7 @@
         "jobType": "Full Time",
         "salary": "50K - 100K",
         "jobDescription": "Lead Backend Engineer - Regional Technology is solely responsible for Managing Backend Team with all phases of the development life-cycle and Define code architectural decisions.",
-        "jobResponsibility": "Lead the development in one or multiple domains, contribute in all phases of the development life-cycle, building interactive consumer data from multiple systems and restfully abstract to the UI through a backend, define code architecture decisions to support a high-performance and scalable product with a minimal footprint, in depth knowledge of NodeJS, Express JS, hapi.js, GraphQL, Apollo, Nuxt.js and collaborate well with engineers, researchers, and data implementation specialists to design and create advanced, elegant and efficient systems.",
+        "jobResponsibility": "Lead the development in one or multiple domains, contribute in all phases of the development life-cycle, building interactive consumer data from multiple systems and restfully abstract to the UI through a backend, define code architecture decisions to support a high-performance and scalable product with a minimal footprint, in depth knowledge of NodeJS, Express JS, hapi.js, GraphQL, Apollo, Next.js and collaborate well with engineers, researchers, and data implementation specialists to design and create advanced, elegant and efficient systems.",
         "educationalRequirements": "BS/MS degree in Computer Science, Engineering or a related subject.",
         "experiences": "More than 5 years experience and at least 3 years in Node.JS.",
         "contactInformation": {

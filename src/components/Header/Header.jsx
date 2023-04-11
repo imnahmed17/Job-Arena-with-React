@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import { BoltIcon, Bars3BottomRightIcon, XMarkIcon } from '@heroicons/react/24/solid';
+import { Bars3BottomRightIcon, XMarkIcon } from '@heroicons/react/24/solid';
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
