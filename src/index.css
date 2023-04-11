@@ -25,3 +25,9 @@
 .gradient-text {
   @apply bg-gradient-to-r from-blue-400 to-indigo-400 inline-block text-transparent bg-clip-text
 }
+
+.dashed-list {
+  padding-left: 1em;
+  text-indent: 1em;
+  list-style-type: "—";
+}

@@ -1,15 +1,19 @@
 import React from 'react';
+import Banner2 from '../Banner/Banner2';
 import { useLoaderData, useParams } from 'react-router-dom';
 
 const JobDetails = () => {
     const {id} = useParams();
-    console.log(id);
     const allJobs = useLoaderData();
+    console.log(id);
     console.log(allJobs);
 
     return (
         <div>
-            <h1>job details</h1>
+            <div className='bg-banner'>
+                <Banner2>Job Details</Banner2>
+            </div>
+
         </div>
     );
 };

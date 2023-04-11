@@ -55,7 +55,7 @@ const Job = ({ job }) => {
                     <p className='text-gray-500 font-medium'>Salary : {salary}</p>
                 </div>
             </div>
-            <Link className='btn' to={`/jobDetails/${id}`}>Get Started</Link>
+            <Link className='btn' to={`/job/${id}`}>Get Started</Link>
         </div>
     );
 };
