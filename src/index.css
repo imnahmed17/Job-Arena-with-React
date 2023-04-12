@@ -6,7 +6,7 @@
   @apply inline-flex items-center px-6 font-semibold text-white text-lg capitalize transition duration-200 border-0 rounded shadow-md md:mb-0 bg-gradient-to-r from-blue-400 to-purple-500 hover:from-purple-500 hover:to-red-500
 }
 
-.bg-header, .bg-banner {
+.bg-header, .bg-banner, .bg-job-info {
   background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
 }
 
