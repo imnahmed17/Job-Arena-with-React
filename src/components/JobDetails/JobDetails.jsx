@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Banner2 from '../Banner/Banner2';
 import { Link, useLoaderData, useParams } from 'react-router-dom';
+import toast, { Toaster } from 'react-hot-toast';
 
 const JobDetails = () => {
     const allJobs = useLoaderData();
@@ -11,8 +12,13 @@ const JobDetails = () => {
 
     const handleApplyNow = () => {
         const appliedJobs = JSON.parse(localStorage.getItem('appliedJobs')) || [];
-        // const exists = 
-        localStorage.setItem('appliedJobs', JSON.stringify([...appliedJobs, jobInfo]));
+        const exists = appliedJobs.find(job => job.id === jobInfo.id);
+        if (exists) {
+            toast.error('You have already applied to this job');
+        }
+        else {
+            localStorage.setItem('appliedJobs', JSON.stringify([...appliedJobs, jobInfo]));
+        }
     }
 
     useEffect(() => {
@@ -161,6 +167,7 @@ const JobDetails = () => {
                     </div>
                 </div>
             </div>
+            <Toaster />
         </div>
     );
 };
