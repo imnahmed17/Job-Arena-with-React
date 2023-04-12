@@ -1,5 +1,4 @@
 # b7a9-career-hub-imnahmed17
-b7a9-career-hub-imnahmed17 created by GitHub Classroom
 A simple React app built with React & React Router Dom.
 
 ## Live Link
@@ -11,3 +10,7 @@ CSS Framework -> [Tailwind](https://tailwindcss.com/docs/installation)
 Icon -> [Hero Icons](https://heroicons.com/)
 
 Hot Toast -> [react-hot-toast](https://react-hot-toast.com/)
+
+Lottie Animation -> [LottieFiles](https://lottiefiles.com/featured)
+
+Lottie NPM Package -> [lottie-react](https://www.npmjs.com/package/lottie-react)
