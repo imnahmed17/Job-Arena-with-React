@@ -8,13 +8,13 @@ const AppliedJobs = () => {
     const [clicked, setClicked] = useState(false);
 
     const handleFilter = (option) => {
-        console.log(option)
+        // console.log(option)
         const filter = jobs.filter(job => job.remoteOrOnsite === option);
-        console.log(filter);
+        // console.log(filter);
         setFilterJobs(filter);
         setClicked(true);
     }
-    console.log(filterJobs);
+    // console.log(filterJobs);
 
     useEffect(() => {
         const storedJobs = JSON.parse(localStorage.getItem('appliedJobs')) || [];
