@@ -34,6 +34,7 @@ const JobDetails = () => {
             </div>
             <div className='my-container min-h-[calc(100vh-152px)] md:min-h-[calc(100vh-200px)] lg:min-h-[calc(100vh-248px)] flex items-center'>
                 <div className='flex flex-col lg:flex-row gap-8 justify-between max-w-screen'>
+                    {/* Job Details */}
                     <div className='text-gray-500 text-justify lg:w-2/3'>
                         <p className=''>
                             <span className='text-gray-800 font-semibold'>Job Description: </span> {jobInfo.jobDescription}
@@ -46,6 +47,8 @@ const JobDetails = () => {
                         <p className='text-gray-800 font-semibold mb-3'>Experiences:</p>
                         <p>{jobInfo.experiences}</p>
                     </div>
+
+                    {/* Salary and Contact Information Card */}
                     <div className='text-gray-500 lg:w-1/3'>
                         <div className='bg-job-info p-6 rounded-lg mb-4'>
                             <p className='text-gray-800 font-semibold text-lg'>Job Details</p>
@@ -163,6 +166,8 @@ const JobDetails = () => {
                                 </p>
                             </div>
                         </div>
+
+                        {/* Apply Button */}
                         <Link onClick={handleApplyNow} className='btn w-full'>Apply Now</Link>
                     </div>
                 </div>

@@ -4,9 +4,12 @@ import Banner2 from '../Banner/Banner2';
 const Blog = () => {
     return (
         <div>
+            {/* Sub Banner */}
             <div className='bg-banner'>
                 <Banner2>Blog</Banner2>
             </div>
+
+            {/* Questions and Answers */}
             <div className='my-container mt-5'>
                 <div className='max-w-screen-xl sm:mx-auto'>
                     <div className='grid grid-cols-1 gap-16 row-gap-8 lg:grid-cols-2'>

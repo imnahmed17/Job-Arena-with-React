@@ -23,10 +23,12 @@ const Home = () => {
 
     return (
         <div>
+            {/* Home Page Banner */}
             <div className='bg-banner pt-5'>
                 <Banner1 />
             </div>
 
+            {/* Category Section */}
             <section className='my-container text-gray-800 mt-20'>
                 <div>
                     <h2 className='text-4xl font-semibold mb-4 text-center'>Job Category List</h2>
@@ -41,6 +43,7 @@ const Home = () => {
                 </div>
             </section>
 
+            {/* Featured Job Section */}
             <section className='my-container text-gray-800 mt-20'>
                 <div>
                     <h2 className='text-4xl font-semibold mb-4 text-center'>Featured Jobs</h2>
@@ -52,6 +55,8 @@ const Home = () => {
                             ))
                         }
                     </div>
+
+                    {/* See All Button */}
                     <div className='text-center my-7'>
                         {
                             !showAll && (
