@@ -4,16 +4,21 @@ import { Link, useLoaderData, useParams } from 'react-router-dom';
 
 const JobDetails = () => {
     const allJobs = useLoaderData();
-    console.log(allJobs);
+    // console.log(allJobs);
     const {id} = useParams();
-    console.log(id);
+    // console.log(id);
     const [jobInfo, setJobInfo] = useState({});
+
+    const handleApplyNow = () => {
+        const appliedJobs = JSON.parse(localStorage.getItem('appliedJobs')) || [];
+        localStorage.setItem('appliedJobs', JSON.stringify([...appliedJobs, jobInfo]));
+    }
 
     useEffect(() => {
         const jobData = allJobs.find(job => job.id === id);
         setJobInfo(jobData);
-    }, []);
-    console.log(jobInfo);
+    }, [allJobs, id]);
+    // console.log(jobInfo);
 
     return (
         <div>
@@ -45,8 +50,8 @@ const JobDetails = () => {
                                     xmlns="http://www.w3.org/2000/svg" 
                                     fill="none" viewBox="0 0 24 24" 
                                     strokeWidth={1.5} 
-                                    stroke="currentColor" 
-                                    className="w-5 h-5 text-gray-500"
+                                    stroke="#8b89ff" 
+                                    className="w-5 h-5"
                                 >
                                     <path 
                                         strokeLinecap="round" 
@@ -65,7 +70,7 @@ const JobDetails = () => {
                                     fill="none" 
                                     viewBox="0 0 24 24" 
                                     strokeWidth={1.5} 
-                                    stroke="currentColor" 
+                                    stroke="#8b89ff" 
                                     className="w-5 h-5"
                                 >
                                     <path 
@@ -89,7 +94,7 @@ const JobDetails = () => {
                                     fill="none" 
                                     viewBox="0 0 24 24" 
                                     strokeWidth={1.5} 
-                                    stroke="currentColor" 
+                                    stroke="#8b89ff" 
                                     className="w-5 h-5"
                                 >
                                     <path 
@@ -109,7 +114,7 @@ const JobDetails = () => {
                                     fill="none" 
                                     viewBox="0 0 24 24" 
                                     strokeWidth={1.5} 
-                                    stroke="currentColor" 
+                                    stroke="#8b89ff" 
                                     className="w-5 h-5"
                                 >
                                     <path 
@@ -129,8 +134,8 @@ const JobDetails = () => {
                                     fill="none" 
                                     viewBox="0 0 24 24" 
                                     strokeWidth={1.5} 
-                                    stroke="currentColor" 
-                                    className="w-5 h-5 text-gray-500 relative bottom-3"
+                                    stroke="#8b89ff" 
+                                    className="w-5 h-5 relative bottom-3"
                                 >
                                     <path 
                                         strokeLinecap="round" 
@@ -151,7 +156,7 @@ const JobDetails = () => {
                                 </p>
                             </div>
                         </div>
-                        <Link className='btn w-full'>Apply Now</Link>
+                        <Link onClick={handleApplyNow} className='btn w-full'>Apply Now</Link>
                     </div>
                 </div>
             </div>
