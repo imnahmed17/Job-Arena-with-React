@@ -1,7 +1,7 @@
 [
     {
         "id": "643523406aaf421fd65dd11f",
-        "companyLogo": "../src/assets/logo/google.png",
+        "companyLogo": "./logo/google.png",
         "jobTitle": "Senior Data Engineer",
         "companyName": "Google LLC",
         "remoteOrOnsite": "Remote",
@@ -22,7 +22,7 @@
     },
     {
         "id": "64352340d38a89b544a8b454",
-        "companyLogo": "../src/assets/logo/airbnb.png",
+        "companyLogo": "./logo/airbnb.png",
         "jobTitle": "Software Engineer",
         "companyName": "Airbnb",
         "remoteOrOnsite": "Onsite",
@@ -43,7 +43,7 @@
     },
     {
         "id": "643523408fd59a4665584ad8",
-        "companyLogo": "../src/assets/logo/tesla.png",
+        "companyLogo": "./logo/tesla.png",
         "jobTitle": "Lead Backend Engineer",
         "companyName": "Tesla",
         "remoteOrOnsite": "Onsite",
@@ -64,10 +64,10 @@
     },
     {
         "id": "6435234071a0e19c79ea5f03",
-        "companyLogo": "../src/assets/logo/netflix.png",
+        "companyLogo": "./logo/netflix.png",
         "jobTitle": "Senior Angular Developer",
         "companyName": "Netflix",
-        "remoteOrOnsite": "Hybrid",
+        "remoteOrOnsite": "Remote",
         "location": {
             "district": "Dhaka, Bangladesh",
             "address": "Badda Link Road, Gulshan 1"
@@ -85,7 +85,7 @@
     },
     {
         "id": "64352340bac89d06bdbb9199",
-        "companyLogo": "../src/assets/logo/google.png",
+        "companyLogo": "./logo/google.png",
         "jobTitle": "Android Developer",
         "companyName": "Google LLC",
         "remoteOrOnsite": "Remote",
@@ -106,7 +106,7 @@
     },
     {
         "id": "64352340b6a57ff8da46c0ec",
-        "companyLogo": "../src/assets/logo/netflix.png",
+        "companyLogo": "./logo/netflix.png",
         "jobTitle": "Sr. Frontend Engineer",
         "companyName": "Netflix",
         "remoteOrOnsite": "Onsite",

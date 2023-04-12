@@ -11,6 +11,7 @@ const JobDetails = () => {
 
     const handleApplyNow = () => {
         const appliedJobs = JSON.parse(localStorage.getItem('appliedJobs')) || [];
+        // const exists = 
         localStorage.setItem('appliedJobs', JSON.stringify([...appliedJobs, jobInfo]));
     }
 
@@ -165,9 +166,3 @@ const JobDetails = () => {
 };
 
 export default JobDetails;
-
-
-// useEffect(()=>{
-//     find korben
-//     find kora data ke state e set korben
-//     },[load kora data , job er id jeta params theke paisen])
