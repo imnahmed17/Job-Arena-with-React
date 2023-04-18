@@ -13,6 +13,7 @@ Hosted in Netlify -> [Job Arena](https://deluxe-caramel-89a495.netlify.app/)
 * from applied jobs route people can see the jobs they applied (here they can filter the jobs according to job type)
 * from blog route people can see question answers
 * from statistics route people can see an area chart
+* there is also a footer
 * if any one try to render a wrong route error route will be appeared
 * every route is mobile and desktop responsive
 
