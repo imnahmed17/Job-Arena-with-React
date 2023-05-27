@@ -16,6 +16,7 @@ Hosted in Netlify -> [Job Arena](https://deluxe-caramel-89a495.netlify.app)
 * there is also a footer
 * if any one try to render a wrong route error route will be appeared
 * every route is mobile and desktop responsive
+* auto scroll handled
 
 ## Resources & Credits
 CSS Framework -> [Tailwind](https://tailwindcss.com/docs/installation)
