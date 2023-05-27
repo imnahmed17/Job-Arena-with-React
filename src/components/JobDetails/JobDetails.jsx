@@ -6,7 +6,7 @@ import toast, { Toaster } from 'react-hot-toast';
 const JobDetails = () => {
     const allJobs = useLoaderData();
     // console.log(allJobs);
-    const {id} = useParams();
+    const { id } = useParams();
     // console.log(id);
     const [jobInfo, setJobInfo] = useState({});
 
@@ -18,6 +18,7 @@ const JobDetails = () => {
         }
         else {
             localStorage.setItem('appliedJobs', JSON.stringify([...appliedJobs, jobInfo]));
+            toast.success('Successfully applied!');
         }
     }
 
