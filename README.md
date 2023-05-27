@@ -1,4 +1,4 @@
-# job-arena
+# Job-Arena-with-React
 A simple React app built with React & React Router Dom.
 
 ## Live Link
